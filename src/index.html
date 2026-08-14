@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>BambiSMP Launcher</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Nunito:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="overrides.css">
+</head>
+<body>
+  <div class="ambient ambient-a"></div><div class="ambient ambient-b"></div>
+  <div class="app-shell">
+    <header class="titlebar">
+      <div class="brand">
+        <img src="../assets/bambi-icon.png" alt="BambiSMP mascot">
+        <div><strong>BambiSMP</strong><span>COZY MODDED SURVIVAL</span></div>
+      </div>
+      <nav class="main-nav" aria-label="Launcher pages">
+        <button class="nav-button active" data-view="home"><span>♡</span> Home</button>
+        <button class="nav-button" data-view="content"><span>＋</span> Add Content</button>
+        <button class="nav-button" data-view="map"><span>✦</span> Live Map</button>
+        <button class="nav-button" data-view="settings"><span>⚙</span> Settings</button>
+      </nav>
+      <div class="window-actions">
+        <button id="minimize" aria-label="Minimize">—</button>
+        <button id="maximize" aria-label="Maximize">□</button>
+        <button id="close" class="close" aria-label="Close">×</button>
+      </div>
+    </header>
+
+    <main class="views">
+      <section class="view active" id="view-home">
+        <div class="home-center">
+          <article class="server-card server-wide">
+            <div class="server-identity">
+              <div class="server-icon"><img id="serverIcon" alt="Server icon"><span>୨ৎ</span></div>
+              <div class="server-copy">
+                <div class="server-name-line"><strong id="serverName">BambiSMP</strong><b class="player-count"><span id="onlineCount">—</span>/<span id="maxCount">—</span><span class="player-tooltip" id="playerTooltip">Checking players…</span></b></div>
+                <code>play.bambismp.site</code>
+              </div>
+              <div class="server-status-badge checking" id="serverStatusBadge"><span id="serverStateDot"></span><strong id="serverState">Checking</strong></div>
+            </div>
+            <div class="motd" id="serverMotd">Checking our cozy little world…</div>
+          </article>
+
+          <div class="home-separator">──── ୨ৎ ────</div>
+
+          <article class="launch-card">
+            <div class="account-box">
+              <div class="player-avatar"><img id="accountAvatar" alt="Player head"><span id="avatarFallback">▦</span></div>
+              <div class="account-copy"><span>PLAYER ACCOUNT</span><strong id="accountName">Not signed in</strong><small id="accountHint">Microsoft account required</small></div>
+              <button class="button ghost" id="loginButton">Sign in with Microsoft</button>
+            </div>
+            <button class="play-button" id="playButton" disabled>
+              <span class="play-icon">▶</span><span><strong>PLAY BAMBI SMP</strong><small>Launch and connect to play.bambismp.site</small></span>
+            </button>
+            <div class="launch-status">
+              <div><span id="statusText">Launcher ready ♡</span><span id="versionText">v0.3.1</span></div>
+              <div class="progress"><i id="progressBar"></i></div>
+            </div>
+          </article>
+
+          <div class="home-separator">──── ୨ৎ ────</div>
+
+          <div class="home-gallery" aria-label="BambiSMP gallery">
+            <img src="../assets/green-plush.png" alt="">
+            <img src="../assets/gallery-frog.png" alt="">
+            <img src="../assets/gallery-cat.png" alt="">
+            <img src="../assets/cinnamoroll-pair.png" alt="">
+          </div>
+        </div>
+      </section>
+
+      <section class="view" id="view-content">
+        <header class="page-header">
+          <div><span class="kicker">✦ MAKE IT YOURS · KEEP THE SERVER PACK SAFE ✦</span><h2>Add Content</h2><p>Find compatible content on Modrinth or bring a file from your PC.</p></div>
+          <div class="page-ornament">──── ୨ৎ ────</div>
+        </header>
+        <div class="content-toolbar">
+          <div class="segmented" id="contentTypeTabs">
+            <button class="active" data-content-type="mod">Client Mods</button>
+            <button data-content-type="shader">Shaders</button>
+            <button data-content-type="resourcepack">Resource Packs</button>
+          </div>
+          <div class="search-box"><span>⌕</span><input id="modrinthSearch" placeholder="Search Modrinth…"><button id="searchButton">Search</button></div>
+          <button class="button primary" id="addFromPc">＋ Add from PC</button>
+        </div>
+        <div class="drop-zone" id="dropZone"><strong>Drop files here</strong><span id="dropHint">.jar client mods · Minecraft 1.20.1 Forge</span></div>
+        <div class="content-columns">
+          <section class="catalog-panel panel">
+            <div class="panel-heading"><div><span>MODRINTH CATALOG</span><h3>Discover something cute & useful</h3></div><small id="searchSummary">Search to see compatible content</small></div>
+            <div class="catalog-grid empty" id="catalogGrid"><div class="empty-state"><span>✦</span><strong>Search Modrinth</strong><p>Only compatible Minecraft 1.20.1 content will appear here.</p></div></div>
+          </section>
+          <aside class="library-panel panel">
+            <div class="library-tabs"><button class="active" data-library="user">My Content</button><button data-library="server">Server Content</button></div>
+            <div class="library-meta"><span id="libraryCount">0 items</span><small id="libraryHelp">Optional client content can be enabled or disabled.</small></div>
+            <div class="library-list" id="libraryList"><div class="empty-state compact"><span>♡</span><strong>Nothing added yet</strong></div></div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="view" id="view-map">
+        <header class="page-header map-header">
+          <div><span class="kicker">✦ LOOK AROUND BEFORE YOU JOIN ✦</span><h2>Live World Map</h2><p>Find neighborhoods, explored land and your next cozy corner.</p></div>
+          <button class="button primary" id="openMapBrowser">Open in browser ↗</button>
+        </header>
+        <div class="map-frame-wrap">
+          <div class="map-frame-title"><span class="live-dot"></span><strong>map.bambismp.site</strong><span>live view</span></div>
+          <iframe id="mapFrame" title="BambiSMP live map" src="https://map.bambismp.site/" sandbox="allow-scripts allow-same-origin allow-forms" referrerpolicy="no-referrer"></iframe>
+          <div class="map-fallback"><strong>Map not visible?</strong><button id="mapFallbackButton">Open it in your browser</button></div>
+        </div>
+      </section>
+
+      <section class="view" id="view-settings">
+        <header class="page-header"><div><span class="kicker">✦ YOUR LAUNCHER, YOUR SPACE ✦</span><h2>Settings</h2><p>Storage and performance controls with no tiny unreadable text.</p></div></header>
+        <div class="settings-grid">
+          <article class="setting-card wide">
+            <div class="setting-icon">⌂</div><div class="setting-copy"><span>INSTALLATION LOCATION</span><h3>Where BambiSMP lives</h3><code id="installPath">Not selected</code><p>Minecraft, Forge, mods and your worlds are kept inside this folder.</p></div>
+            <button class="button ghost" id="changeInstallation">Change folder</button>
+          </article>
+          <article class="setting-card wide">
+            <div class="setting-icon">◫</div><div class="setting-copy ram-copy"><span>MEMORY</span><h3>Minecraft RAM</h3><p>Starts at 75% by default. You can choose up to all installed physical RAM.</p><input id="ramSlider" type="range" min="4096" step="512"><div class="ram-scale"><span>4 GB</span><output id="ramOutput">6 GB</output><span id="ramMax">—</span></div></div>
+          </article>
+          <article class="setting-card"><div class="setting-icon">✦</div><div class="setting-copy"><span>GAME FILES</span><h3>Open game folder</h3><p>View logs, screenshots and manually managed files.</p><button class="text-button" id="openFolder">Open folder ↗</button></div></article>
+          <article class="setting-card"><div class="setting-icon">♡</div><div class="setting-copy"><span>DIRECT CONNECT</span><h3>play.bambismp.site</h3><p>PLAY launches Minecraft and joins automatically with Quick Play.</p></div></article>
+          <button class="button primary save-settings" id="saveSettings">Save settings</button>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <div class="setup-overlay hidden" id="setupOverlay">
+    <article class="setup-card">
+      <img src="../assets/bambi-icon.png" alt="BambiSMP mascot">
+      <span class="kicker">✦ WELCOME HOME ✦</span>
+      <h2>Pick a cozy place for BambiSMP.</h2>
+      <p>Choose where Minecraft, Forge, the modpack and your personal content should be installed. We create a tidy <strong>BambiSMP</strong> folder there.</p>
+      <button class="button primary big" id="setupChoose">Choose installation folder</button>
+      <small>──── ୨ৎ ────　You can change this later in Settings.</small>
+    </article>
+  </div>
+
+  <div class="toast" id="toast"><span>♡</span><p></p></div>
+  <script src="renderer.js"></script>
+</body>
+</html>
