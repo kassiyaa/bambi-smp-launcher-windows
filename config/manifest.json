@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "packVersion": "1.0.3",
+  "minecraftVersion": "1.20.1",
+  "forgeVersion": "47.4.10",
+  "instanceZipUrl": "https://bambigames.site/launcher/files/BambiSMP-Modpack-CurseForge-1.0.3.zip",
+  "instanceZipSha256": "4c7fa9a71bff6cfaa9ce508fedc6651ea2bd9a8758603a082d931effdd464213",
+  "serverAddress": "play.bambismp.site"
+}

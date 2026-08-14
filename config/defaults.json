@@ -1,0 +1,10 @@
+{
+  "manifestUrl": "https://bambigames.site/launcher/manifest-v2.json",
+  "serverAddress": "play.bambismp.site",
+  "mapUrl": "https://map.bambismp.site/",
+  "minecraftVersion": "1.20.1",
+  "forgeVersion": "47.4.10",
+  "minimumRamMb": 4096,
+  "defaultRamMb": 6144,
+  "maximumRamMb": 16384
+}

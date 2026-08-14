@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "packVersion": "1.0.0",
+  "minecraftVersion": "1.20.1",
+  "forgeVersion": "47.4.10",
+  "instanceZipUrl": "https://example.invalid/bambi-smp-pack-1.0.0.zip",
+  "instanceZipSha256": "REPLACE_WITH_LOWERCASE_SHA256",
+  "news": "Bambi SMP Launcher is ready! ♡",
+  "serverAddress": "REPLACE_WITH_PUBLIC_SERVER_HOSTNAME"
+}

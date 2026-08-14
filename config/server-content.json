@@ -1,0 +1,578 @@
+[
+  {
+    "path": "mods/3d_placeable_food-2.6.0-forge-1.20.1.jar"
+  },
+  {
+    "path": "mods/abnormals_delight-1.20.1-5.0.1.jar"
+  },
+  {
+    "path": "mods/accents-forge-1.20.1-1.1.0.jar"
+  },
+  {
+    "path": "mods/accessories-neoforge-1.0.0-beta.48+1.20.1.jar"
+  },
+  {
+    "path": "mods/additionallanterns-1.1.2-forge-mc1.20.2.jar"
+  },
+  {
+    "path": "mods/addonslib-forge-1.20.1-1.11.jar"
+  },
+  {
+    "path": "mods/alexsdelight-1.5.jar"
+  },
+  {
+    "path": "mods/alexsmobs-1.22.9.jar"
+  },
+  {
+    "path": "mods/amendments-1.20-2.2.5.jar"
+  },
+  {
+    "path": "mods/another_furniture-forge-1.20.1-3.0.4.jar"
+  },
+  {
+    "path": "mods/aquamirae-forge-1.20.1-6.1.2.jar"
+  },
+  {
+    "path": "mods/architectury-9.2.14-forge.jar"
+  },
+  {
+    "path": "mods/Arky's Aesthetics [v1.6.5] [Forge 1.20.1].jar"
+  },
+  {
+    "path": "mods/artifacts-forge-9.5.19.jar"
+  },
+  {
+    "path": "mods/athena-forge-1.20.1-3.1.2.jar"
+  },
+  {
+    "path": "mods/BambiSMPCompanion-1.20.1-1.0.3.jar"
+  },
+  {
+    "path": "mods/berries_and_cherries-1.0.9-hotfix.jar"
+  },
+  {
+    "path": "mods/Better Mob Griefing Control-Forge-1.20.1-4.0.0.jar"
+  },
+  {
+    "path": "mods/Better_Dogs_X_Doggy_Talents_Next_v1.2.2 [Forge] - [1.20-1.20.1].jar"
+  },
+  {
+    "path": "mods/betterlily-1.20-1.3.1.jar"
+  },
+  {
+    "path": "mods/bf_blockpack-forge-1.20.1-1.0.11.jar"
+  },
+  {
+    "path": "mods/big_lost_city-1.0.1-forge-1.20.1.jar"
+  },
+  {
+    "path": "mods/BiomesOPlenty-1.20.1-18.0.0.592.jar"
+  },
+  {
+    "path": "mods/blueprint-1.20.1-7.1.4.jar"
+  },
+  {
+    "path": "mods/Bookshelf-Forge-1.20.1-20.2.13.jar"
+  },
+  {
+    "path": "mods/BotanyPots-Forge-1.20.1-13.0.41.jar"
+  },
+  {
+    "path": "mods/BotanyPotsTiers-Forge-1.20.1-6.0.2.jar"
+  },
+  {
+    "path": "mods/BotanyTrees-Forge-1.20.1-9.0.19.jar"
+  },
+  {
+    "path": "mods/breezy-1.20.1-1.2.2.jar"
+  },
+  {
+    "path": "mods/BrewinAndChewin-1.20.1-3.2.1.jar"
+  },
+  {
+    "path": "mods/camera-forge-1.20.1-1.0.20.jar"
+  },
+  {
+    "path": "mods/carryon-forge-1.20.1-2.1.2.7.jar"
+  },
+  {
+    "path": "mods/ccw-v1.2.4-mc1.20.1.jar"
+  },
+  {
+    "path": "mods/cfm-forge-1.20.1-7.0.0-pre36.jar"
+  },
+  {
+    "path": "mods/Chimes-v2.0.1-1.20.1.jar"
+  },
+  {
+    "path": "mods/chipped-forge-1.20.1-3.0.7.jar"
+  },
+  {
+    "path": "mods/chisels-and-bits-forge-20.1.19.jar"
+  },
+  {
+    "path": "mods/chocolate_factory-1.0.0-forge-1.20.1.jar"
+  },
+  {
+    "path": "mods/citadel-2.6.3-1.20.1.jar"
+  },
+  {
+    "path": "mods/cloth-config-11.1.136-forge.jar"
+  },
+  {
+    "path": "mods/cluttered-[Forge]-3.0.3-1.20.1.jar"
+  },
+  {
+    "path": "mods/collective-1.20.1-8.39.jar"
+  },
+  {
+    "path": "mods/Corgilib-Forge-1.20.1-4.0.3.5.jar"
+  },
+  {
+    "path": "mods/cozyfoods-1.20.1 v1.4.jar"
+  },
+  {
+    "path": "mods/create_factory-0.5a-1.20.1.jar"
+  },
+  {
+    "path": "mods/create_snt-0.6.9_forge.jar"
+  },
+  {
+    "path": "mods/create-1.20.1-6.0.8.jar"
+  },
+  {
+    "path": "mods/create-confectionery1.20.1_v1.1.3.jar"
+  },
+  {
+    "path": "mods/creeperoverhaul-3.0.2-forge.jar"
+  },
+  {
+    "path": "mods/cristellib-1.1.6-forge.jar"
+  },
+  {
+    "path": "mods/crittersandcompanions-forge-1.20.1-2.6.2.jar"
+  },
+  {
+    "path": "mods/Croptopia-1.20.1-FORGE-4.0.1.jar"
+  },
+  {
+    "path": "mods/croptopiadelight-1.3.2.jar"
+  },
+  {
+    "path": "mods/curios-forge-5.14.1+1.20.1.jar"
+  },
+  {
+    "path": "mods/cute_companions_ducks-0.0.3-forge-1.20.1.jar"
+  },
+  {
+    "path": "mods/deco_storage-4.0606-forge-1.20.1.jar"
+  },
+  {
+    "path": "mods/Decorative Winter-forge-1.20.1-3.0.0.jar"
+  },
+  {
+    "path": "mods/decorative_blocks-forge-1.20.1-4.1.3.jar"
+  },
+  {
+    "path": "mods/decorative_core-2.0705-forge-1.20.1.jar"
+  },
+  {
+    "path": "mods/Decorativepaths 1.20.1 - v1.5 - Forge.jar"
+  },
+  {
+    "path": "mods/Decorativerailings 1.20.1- v1.3 - Forge.jar"
+  },
+  {
+    "path": "mods/deepbelow-B2.jar"
+  },
+  {
+    "path": "mods/Delightful-1.20.1-3.8.1.jar"
+  },
+  {
+    "path": "mods/delightfulburgers-1.20.1.jar"
+  },
+  {
+    "path": "mods/DiscCord-1.20.1-1.3.3.jar"
+  },
+  {
+    "path": "mods/DoggyTalentsNext-1.20.1-1.19.0.jar"
+  },
+  {
+    "path": "mods/DustyDecorations_1.20.1Forge_V1.13.jar"
+  },
+  {
+    "path": "mods/easy_npc-forge-1.20.1-5.4.1.jar"
+  },
+  {
+    "path": "mods/ecologics-forge-1.20.1-2.2.7.jar"
+  },
+  {
+    "path": "mods/Emojiful-Forge-1.20.1-4.2.0.jar"
+  },
+  {
+    "path": "mods/enlightend-5.0.14-1.20.1.jar"
+  },
+  {
+    "path": "mods/EpheroLib-1.20.1-FORGE-1.2.0.jar"
+  },
+  {
+    "path": "mods/evenbetternether-1.3.1-forge-1.20.1.jar"
+  },
+  {
+    "path": "mods/experience_jars-1.0202-forge-1.20.1.jar"
+  },
+  {
+    "path": "mods/fabulous_flowers-1.1.0[forge-1.20.1].jar"
+  },
+  {
+    "path": "mods/farmers_croptopia-1.20.1-3.2.1.jar"
+  },
+  {
+    "path": "mods/FarmersDelight-1.20.1-1.3.2.jar"
+  },
+  {
+    "path": "mods/FarmersStructures-1.0.4-1.20.jar"
+  },
+  {
+    "path": "mods/Fastload-Reforged-mc1.20.1-3.4.0.jar"
+  },
+  {
+    "path": "mods/ferritecore-6.0.1-forge.jar"
+  },
+  {
+    "path": "mods/fireflybushport-3.0.0-forge-1.20.1.jar"
+  },
+  {
+    "path": "mods/fishermens_trap-2.1.4.jar"
+  },
+  {
+    "path": "mods/FlowerSeeds2-1.20.1-1.1.2.jar"
+  },
+  {
+    "path": "mods/FlowerSeeds2FabulousFlowers-1.20.1-1.1.2.jar"
+  },
+  {
+    "path": "mods/fragmentum-forge-1.20.1-1.5.2.jar"
+  },
+  {
+    "path": "mods/framework-forge-1.20.1-0.8.0.jar"
+  },
+  {
+    "path": "mods/ftb-essentials-forge-2001.2.4.jar"
+  },
+  {
+    "path": "mods/ftb-library-forge-2001.2.13.jar"
+  },
+  {
+    "path": "mods/furnitury-3.0707-forge-1.20.1.jar"
+  },
+  {
+    "path": "mods/fusion-1.2.12-forge-mc1.20.1.jar"
+  },
+  {
+    "path": "mods/geckolib-forge-1.20.1-4.8.4.jar"
+  },
+  {
+    "path": "mods/Geophilic v3.6.mod.jar"
+  },
+  {
+    "path": "mods/ghosts-forge-1.20.1-1.3.3.jar"
+  },
+  {
+    "path": "mods/golemoverhaul-forge-1.20.1-1.1.1.jar"
+  },
+  {
+    "path": "mods/gourmet-0.1.1b-1.20.1.jar"
+  },
+  {
+    "path": "mods/handcrafted-forge-1.20.1-3.0.6.jar"
+  },
+  {
+    "path": "mods/hearth_and_home-forge-1.20.1-2.0.1.jar"
+  },
+  {
+    "path": "mods/jamlib-forge-1.3.6+1.20.1-patch.1.jar"
+  },
+  {
+    "path": "mods/Jellyfishing-2.0.9.jar"
+  },
+  {
+    "path": "mods/justplayerheads-1.20.1-4.4.jar"
+  },
+  {
+    "path": "mods/KawaiiDishes_1.10.2-1.20.1.jar"
+  },
+  {
+    "path": "mods/L_Enders_Cataclysm-3.31.jar"
+  },
+  {
+    "path": "mods/letsdo-API-forge-1.2.15-forge.jar"
+  },
+  {
+    "path": "mods/letsdo-bakery-forge-1.1.15.jar"
+  },
+  {
+    "path": "mods/letsdo-beachparty-forge-2.0.3.jar"
+  },
+  {
+    "path": "mods/letsdo-bloomingnature-forge-1.0.12.jar"
+  },
+  {
+    "path": "mods/letsdo-brewery-forge-1.1.9.jar"
+  },
+  {
+    "path": "mods/letsdo-brewery-forge-2.0.6.jar"
+  },
+  {
+    "path": "mods/letsdo-candlelight-forge-1.2.13.jar"
+  },
+  {
+    "path": "mods/letsdo-candlelight-forge-2.0.5.jar"
+  },
+  {
+    "path": "mods/letsdo-farm_and_charm-forge-1.0.14.jar"
+  },
+  {
+    "path": "mods/letsdo-furniture-forge-1.0.4.jar"
+  },
+  {
+    "path": "mods/letsdo-herbalbrews-forge-1.0.12.jar"
+  },
+  {
+    "path": "mods/letsdo-meadow-forge-1.3.25.jar"
+  },
+  {
+    "path": "mods/letsdo-vinery-forge-1.4.41.jar"
+  },
+  {
+    "path": "mods/letsdo-wildernature-forge-1.0.6.jar"
+  },
+  {
+    "path": "mods/lionfishapi-3.0.jar"
+  },
+  {
+    "path": "mods/lithostitched-forge-1.20.1-1.4.11.jar"
+  },
+  {
+    "path": "mods/majrusz-library-forge-1.20.1-7.0.8.jar"
+  },
+  {
+    "path": "mods/majruszs-accessories-forge-1.20.1-1.5.3.jar"
+  },
+  {
+    "path": "mods/mcw-bridges-3.1.2-mc1.20.1forge.jar"
+  },
+  {
+    "path": "mods/mcw-doors-1.1.5-mc1.20.1forge.jar"
+  },
+  {
+    "path": "mods/mcw-furniture-3.4.1-mc1.20.1forge.jar"
+  },
+  {
+    "path": "mods/mcw-holidays-1.1.2-mc1.20.1forge.jar"
+  },
+  {
+    "path": "mods/mcw-lights-1.1.5-mc1.20.1forge.jar"
+  },
+  {
+    "path": "mods/mcw-mcwfences-1.2.1-mc1.20.1forge.jar"
+  },
+  {
+    "path": "mods/mcw-mcwpaths-1.1.1-mc1.20.1forge.jar"
+  },
+  {
+    "path": "mods/mcw-mcwstairs-1.0.2-mc1.20.1forge.jar"
+  },
+  {
+    "path": "mods/mcw-mcwwindows-2.4.2-mc1.20.1forge.jar"
+  },
+  {
+    "path": "mods/mcw-roofs-2.3.2-mc1.20.1forge.jar"
+  },
+  {
+    "path": "mods/mcw-trapdoors-1.1.5-mc1.20.1forge.jar"
+  },
+  {
+    "path": "mods/mcwnaturesspirit-forge-1.20.1-1.6.jar"
+  },
+  {
+    "path": "mods/modernfix-forge-5.27.72+mc1.20.1.jar"
+  },
+  {
+    "path": "mods/moogs_structures-1.20-1.20.4-3.0.2-forge.jar"
+  },
+  {
+    "path": "mods/MoogsBountifulStructures-1.20-1.0.5.jar"
+  },
+  {
+    "path": "mods/MoogsEndStructures-1.20-2.0.3.jar"
+  },
+  {
+    "path": "mods/MoogsNetherStructures-1.20-3.0.0.jar"
+  },
+  {
+    "path": "mods/moonlight-1.20-2.16.34-forge.jar"
+  },
+  {
+    "path": "mods/MoreChestVariants-1.5.6+1.20.2-Forge.jar"
+  },
+  {
+    "path": "mods/MushroomQuest-Forge-1.20.1-v4.3.2.jar"
+  },
+  {
+    "path": "mods/natures_delight-1.13.1-1.20.1.jar"
+  },
+  {
+    "path": "mods/natures_spirit-2.2.5-1.20.1.jar"
+  },
+  {
+    "path": "mods/nightlights-1.20.1-1.1.jar"
+  },
+  {
+    "path": "mods/obscure_api-18.jar"
+  },
+  {
+    "path": "mods/Oh-The-Biomes-Weve-Gone-Forge-1.8.0.jar"
+  },
+  {
+    "path": "mods/Oh-The-Trees-Youll-Grow-forge-1.20.1-1.7.0.jar"
+  },
+  {
+    "path": "mods/open-parties-and-claims-forge-1.20.1-0.29.2.jar"
+  },
+  {
+    "path": "mods/packetfixer-3.3.2-1.18-1.20.4-merged.jar"
+  },
+  {
+    "path": "mods/pandaplushies-1.2-forge-1.20.1.jar"
+  },
+  {
+    "path": "mods/Pehkui-3.8.2+1.20.1-forge.jar"
+  },
+  {
+    "path": "mods/Platform-forge-1.20.1-1.3.4.jar"
+  },
+  {
+    "path": "mods/plushie_buddies-1.0.1-1.20.1.jar"
+  },
+  {
+    "path": "mods/polly_pets-1.3-forge-1.20.1.jar"
+  },
+  {
+    "path": "mods/Quad-1.2.9+1.20.4-Forge.jar"
+  },
+  {
+    "path": "mods/rechiseled_chipped-1.3.1-1.20.1.jar"
+  },
+  {
+    "path": "mods/rechiseled-1.1.6-forge-mc1.20.jar"
+  },
+  {
+    "path": "mods/redeco-1.14.1-forge-1.20.1.jar"
+  },
+  {
+    "path": "mods/refurbished_furniture-forge-1.20.1-1.0.20.jar"
+  },
+  {
+    "path": "mods/RegionsUnexploredForge-0.5.6+1.20.1.jar"
+  },
+  {
+    "path": "mods/resourcefulconfig-forge-1.20.1-2.1.3.jar"
+  },
+  {
+    "path": "mods/resourcefullib-forge-1.20.1-2.1.29.jar"
+  },
+  {
+    "path": "mods/Ribbits-1.20.1-Forge-3.0.5.jar"
+  },
+  {
+    "path": "mods/rightclickharvest-forge-4.6.1+1.20.1.jar"
+  },
+  {
+    "path": "mods/rusticdelight-forge-1.20.1-1.7.0.jar"
+  },
+  {
+    "path": "mods/shroomtopia-0.9-beta-1.20.1.jar"
+  },
+  {
+    "path": "mods/spark-1.10.53-forge.jar"
+  },
+  {
+    "path": "mods/starcatcher-2.3.18-FORGE-1.20.1.jar"
+  },
+  {
+    "path": "mods/StorageDrawers-forge-1.20.1-12.14.3.jar"
+  },
+  {
+    "path": "mods/supermartijn642configlib-1.1.8-forge-mc1.20.jar"
+  },
+  {
+    "path": "mods/supermartijn642corelib-1.1.23-forge-mc1.20.1.jar"
+  },
+  {
+    "path": "mods/supplementaries-1.20-3.1.43-forge.jar"
+  },
+  {
+    "path": "mods/TerraBlender-forge-1.20.1-3.0.1.10.jar"
+  },
+  {
+    "path": "mods/terrain_slabs-forge-3.1.1.jar"
+  },
+  {
+    "path": "mods/The_Graveyard_3.1_(FORGE)_for_1.20.1.jar"
+  },
+  {
+    "path": "mods/Towns-and-Towers-1.12-Fabric+Forge.jar"
+  },
+  {
+    "path": "mods/TreeChop-1.20.1-forge-0.19.0-fixed.jar"
+  },
+  {
+    "path": "mods/txnilib-forge-1.0.24-1.20.1.jar"
+  },
+  {
+    "path": "mods/VanillaBackport-forge-1.20.1-1.1.7.10.jar"
+  },
+  {
+    "path": "mods/viavens_flowers-1.2.9-forge-1.20.1.jar"
+  },
+  {
+    "path": "mods/whimsy_deco-1.2.jar"
+  },
+  {
+    "path": "mods/wilderflowers-1.20.1-1.0.0.jar"
+  },
+  {
+    "path": "mods/YungsApi-1.20-Forge-4.0.6.jar"
+  },
+  {
+    "path": "mods/YungsBetterDesertTemples-1.20-Forge-3.0.3.jar"
+  },
+  {
+    "path": "mods/YungsBetterDungeons-1.20-Forge-4.0.4.jar"
+  },
+  {
+    "path": "mods/YungsBetterEndIsland-1.20-Forge-2.0.6.jar"
+  },
+  {
+    "path": "mods/YungsBetterJungleTemples-1.20-Forge-2.0.5.jar"
+  },
+  {
+    "path": "mods/YungsBetterMineshafts-1.20-Forge-4.0.4.jar"
+  },
+  {
+    "path": "mods/YungsBetterNetherFortresses-1.20-Forge-2.0.6.jar"
+  },
+  {
+    "path": "mods/YungsBetterOceanMonuments-1.20-Forge-3.0.4.jar"
+  },
+  {
+    "path": "mods/YungsBetterStrongholds-1.20-Forge-4.0.3.jar"
+  },
+  {
+    "path": "mods/YungsBetterWitchHuts-1.20-Forge-3.0.3.jar"
+  },
+  {
+    "path": "mods/zetter-1.20.1-0.21.7.jar"
+  }
+]
