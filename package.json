@@ -1,0 +1,45 @@
+{
+  "name": "bambi-smp-launcher",
+  "version": "0.4.5",
+  "description": "Official Windows launcher for Bambi SMP",
+  "main": "src/main.cjs",
+  "author": "Bambi SMP",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --win nsis"
+  },
+  "build": {
+    "appId": "site.bambismp.launcher",
+    "productName": "Bambi SMP Launcher",
+    "artifactName": "Bambi-SMP-Launcher-Setup-${version}.${ext}",
+    "directories": { "output": "dist", "buildResources": "build" },
+    "files": ["assets/**/*", "config/**/*", "src/**/*", "package.json", "node_modules/**/*"],
+    "win": { "target": "nsis", "icon": "build/icon.ico" },
+    "nsis": { "oneClick": true, "perMachine": false, "createDesktopShortcut": true, "createStartMenuShortcut": true, "shortcutName": "Bambi SMP Launcher" }
+  },
+  "dependencies": {
+    "@xmcl/core": "2.14.1",
+    "@xmcl/file-transfer": "2.0.2",
+    "@xmcl/installer": "6.1.0",
+    "extract-zip": "2.0.1",
+    "msmc": "5.0.5",
+    "yauzl": "2.10.0"
+  },
+  "devDependencies": {
+    "electron": "37.2.3",
+    "electron-builder": "26.0.12"
+  },
+  "overrides": {
+    "@xmcl/installer": {
+      "undici": "6.28.0"
+    },
+    "@xmcl/file-transfer": {
+      "undici": "6.28.0"
+    }
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": ["electron", "electron-winstaller"]
+  }
+}
